@@ -35,8 +35,8 @@ public class Admin implements UserDetails {
     private String email;
 
     @NotBlank(message = "Password is required")
-    @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$", 
-             message = "Password must be at least 12 characters with 1 uppercase, 1 lowercase, 1 digit, and 1 special character")
+    // @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$", 
+    //          message = "Password must be at least 12 characters with 1 uppercase, 1 lowercase, 1 digit, and 1 special character")
     @Column(nullable = false)
     private String password;
 
