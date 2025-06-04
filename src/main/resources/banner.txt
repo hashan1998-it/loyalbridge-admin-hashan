@@ -1,0 +1,16 @@
+_                      _ ____       _     _            
+| |    ___  _   _  __ _| | __ ) _ __(_) __| | __ _  ___ 
+| |   / _ \| | | |/ _` | |  _ \| '__| |/ _` |/ _` |/ _ \
+| |__| (_) | |_| | (_| | | |_) | |  | | (_| | (_| |  __/
+|_____\___/ \__, |\__,_|_|____/|_|  |_|\__,_|\__, |\___|
+            |___/                            |___/      
+
+:: LoyalBridge Admin Panel ::                 (v1.0.0)
+:: Spring Boot ::                            (v3.2.0)
+
+🧩 Admin Panel for Loyalty Management System
+🔐 JWT Authentication with Role-Based Access Control
+👥 User & Partner Management with Advanced Analytics
+📊 Real-time Dashboard with Conversion Tracking
+
+Ready for loyalty program administration!
