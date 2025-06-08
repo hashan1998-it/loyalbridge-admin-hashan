@@ -68,6 +68,11 @@ public interface ConversionLogRepository extends JpaRepository<ConversionLog, Lo
     Page<ConversionLog> findByPartnerId(Long partnerId, Pageable pageable);
     
     /**
+     * Count conversions by partner ID
+     */
+    long countByPartnerId(Long partnerId);
+    
+    /**
      * Find conversions by status
      */
     List<ConversionLog> findByStatus(ConversionStatus status);
