@@ -190,7 +190,7 @@ GET /api/dashboard/system/health         # System health
 ### Backend Setup
 ```bash
 # Clone repository
-git clone (https://github.com/hashan1998-it/loyalbridge-admin-hashan)
+git clone https://github.com/hashan1998-it/loyalbridge-admin-hashan
 cd loyalbridge-admin-panel
 
 # Build and run backend
